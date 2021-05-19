@@ -1,4 +1,4 @@
 # Udemi_SpringBootREST
 Java Spring Boot REST webApp from UDEMI course <br>
-[Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
+[Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/) <br>
 by Chad Darby
