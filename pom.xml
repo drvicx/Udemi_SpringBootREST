@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.jdm2.springboot.examples</groupId>
-	<artifactId>demoApp1</artifactId>
+	<artifactId>nve-spring-rest-webapp-udemi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demoApp1</name>
+	<name>myRestWebApp</name>
 	<description>REST API Spring Boot demo project</description>
 	<properties>
 		<java.version>1.8</java.version>
@@ -22,6 +22,19 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<!-- SpringBoot Actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- For implement SpringBoot Actuator Security -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<!-- Unit testing and etc -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
