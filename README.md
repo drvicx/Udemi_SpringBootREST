@@ -8,11 +8,11 @@ by Chad Darby<br>
   Java 1.8.0_231 <br>
   Maven 3.6.3 <br>
   Spring 2.4.5 <br>
-  Spring Boot 2.4.5 <br><br>
+  Spring Boot 2.4.5 <br>
   
 - app endpoints:<br>
     http://localhost:7070/api/test <br>
-    http://localhost:7070/api/ <br><br>
+    http://localhost:7070/api/ <br>
 
 - endpoints authorization:<br>
   username: admin<br>
