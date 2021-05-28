@@ -31,15 +31,14 @@ by Chad Darby<br>
 **=CHANGE LOG**<br>
 *new at the beginning
 
-**20210528_1245:** _(C)reate, (U)pdate, (D)elete records from MySQL DB_ <br>
-[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/6/commits)
+**20210528_1245:** _(C)reate, (U)pdate, (D)elete records from MySQL DB_
 <pre>
 -- 462 - Spring Boot - Additional CRUD Methods for DAO (create, update, delete record);
 -- Spring Security is disabled due authorization problems on rest crud operations;
 </pre>
+[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/6/commits)
 
-**20210528_1125:** _Add Hibernate and JPA + Connect to MySQL DB + (R)ead records from DB_ <br>
-[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/4/commits)
+**20210528_1125:** _Add Hibernate and JPA + Connect to MySQL DB + (R)ead records from DB_
 <pre>
 -- 456 - Spring Boot - REST CRUD Real-Time Project Overview and Database Set Up;
 -- 457 - Spring Boot - Create Project with Spring Initializr;
@@ -49,9 +48,9 @@ by Chad Darby<br>
 -- 461 - Spring Boot - Creating REST Controller Methods;
 -- 462 - Spring Boot - Additional CRUD Methods for DAO (get/read records, get record by Id);
 </pre>
+[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/4/commits)
 
-**20210524_1130:** _Create & Explore SpringBoot Project_ <br>
-[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/3/commits)
+**20210524_1130:** _Create & Explore SpringBoot Project_
 <pre>
 -- 441 - Spring Boot - What is Spring Boot;
 -- 442 - Spring Boot - Creating a Project with Spring Boot Initializr;
@@ -69,4 +68,4 @@ by Chad Darby<br>
 -- 454 - Spring Boot - Injecting Custom Application Properties;
 -- 455 - Spring Boot - Configuring the Spring Boot Server;
 </pre>
-<br>
+[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/3/commits)
