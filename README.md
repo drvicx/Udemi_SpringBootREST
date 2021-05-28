@@ -3,24 +3,44 @@ Java Spring Boot REST webApp from UDEMI course <br>
 [Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/) <br>
 by Chad Darby<br>
 <br>
+
 **=INFO**
 - environment:<br>
-  Java 1.8.0_231 <br>
+  Java 1.8.0 <br>
   Maven 3.6.3 <br>
-  Spring 2.4.5 <br>
+
+- dependencies:<br>
   Spring Boot 2.4.5 <br>
-  
+  Spring Boot Starter Web <br>
+  Spring Boot Starter Data JPA <br>
+  Spring Boot Starter Actuator <br>
+  Spring Boot Starter Security <br>
+  JDBC MySQL Connector 8.0.23 <br>
+
 - app endpoints:<br>
-    http://localhost:7070/api/test <br>
-    http://localhost:7070/api/ <br>
+  http://localhost:7070/api <br>
+  http://localhost:7070/api/test <br>
+  http://localhost:7070/api/employees <br>
+  http://localhost:7070/api/employees/1 <br>
 
 - endpoints authorization:<br>
   username: admin<br>
   password: 1234@admin<br>
   <br>
-  
+
 **=CHANGE LOG**<br>
 *new at the beginning
+
+**20210528_1125:** _Add Hibernate and JPA + Connect to MySQL DB_
+<pre>
+-- 456 - Spring Boot - REST CRUD Real-Time Project Overview and Database Set Up;
+-- 457 - Spring Boot - Create Project with Spring Initializr;
+-- 458 - Spring Boot - Integrating Hibernate and JPA;
+-- 459 - Spring Boot - Configuring the Spring Boot Data Source;
+-- 460 - Spring Boot - Developing the DAO Interface and Implementation;
+-- 461 - Spring Boot - Creating REST Controller Methods;
+-- 462 - Spring Boot - Additional CRUD Methods for DAO (get records, get record by Id);
+</pre>
 
 **20210524_1130:** _Create & Explore SpringBoot Project_
 <pre>
@@ -40,7 +60,4 @@ by Chad Darby<br>
 -- 454 - Spring Boot - Injecting Custom Application Properties;
 -- 455 - Spring Boot - Configuring the Spring Boot Server;
 </pre>
-
-
-
-
+<br>
