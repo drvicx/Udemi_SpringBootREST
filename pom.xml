@@ -31,10 +31,12 @@
 		</dependency>
 
 		<!-- For implement SpringBoot Actuator Security -->
+		<!--
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
+		-->
 
 		<!-- Hibernate ORM -->
 		<dependency>

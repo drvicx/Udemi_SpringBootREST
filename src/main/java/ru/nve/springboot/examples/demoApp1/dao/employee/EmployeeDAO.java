@@ -12,4 +12,8 @@ public interface EmployeeDAO {
     List<Employee> findAll();
     //--get single record by id
     Employee findById(int theId);
+    //--add/save/update record
+    void save(Employee theEmployee);
+    //--delete record by id
+    void deleteById(int theId);
 }

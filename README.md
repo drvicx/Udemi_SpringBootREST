@@ -14,7 +14,7 @@ by Chad Darby<br>
   Spring Boot Starter Web <br>
   Spring Boot Starter Data JPA <br>
   Spring Boot Starter Actuator <br>
-  Spring Boot Starter Security <br>
+  Spring Boot Starter Security (disabled) <br>
   JDBC MySQL Connector 8.0.23 <br>
 
 - app endpoints:<br>
@@ -23,13 +23,19 @@ by Chad Darby<br>
   http://localhost:7070/api/employees <br>
   http://localhost:7070/api/employees/1 <br>
 
-- endpoints authorization:<br>
+- endpoints authorization (disabled):<br>
   username: admin<br>
   password: 1234@admin<br>
   <br>
 
 **=CHANGE LOG**<br>
 *new at the beginning
+
+**20210528_1245:** _Add Hibernate and JPA + Connect to MySQL DB_
+<pre>
+-- 462 - Spring Boot - Additional CRUD Methods for DAO (create, update, delete record);
+-- Spring Security is disabled due authorization problems on rest crud operations;
+</pre>
 
 **20210528_1125:** _Add Hibernate and JPA + Connect to MySQL DB_
 <pre>
@@ -39,7 +45,7 @@ by Chad Darby<br>
 -- 459 - Spring Boot - Configuring the Spring Boot Data Source;
 -- 460 - Spring Boot - Developing the DAO Interface and Implementation;
 -- 461 - Spring Boot - Creating REST Controller Methods;
--- 462 - Spring Boot - Additional CRUD Methods for DAO (get records, get record by Id);
+-- 462 - Spring Boot - Additional CRUD Methods for DAO (get/read records, get record by Id);
 </pre>
 
 **20210524_1130:** _Create & Explore SpringBoot Project_
