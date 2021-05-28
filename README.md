@@ -32,12 +32,14 @@ by Chad Darby<br>
 *new at the beginning
 
 **20210528_1245:** _(C)reate, (U)pdate, (D)elete records from MySQL DB_
+[">commits"](https://github.com/drvicx/Udemi_SpringBootREST/pull/6/commits)
 <pre>
 -- 462 - Spring Boot - Additional CRUD Methods for DAO (create, update, delete record);
 -- Spring Security is disabled due authorization problems on rest crud operations;
 </pre>
 
 **20210528_1125:** _Add Hibernate and JPA + Connect to MySQL DB + (R)ead records from DB_
+[">commits"](https://github.com/drvicx/Udemi_SpringBootREST/pull/4/commits)
 <pre>
 -- 456 - Spring Boot - REST CRUD Real-Time Project Overview and Database Set Up;
 -- 457 - Spring Boot - Create Project with Spring Initializr;
@@ -49,6 +51,7 @@ by Chad Darby<br>
 </pre>
 
 **20210524_1130:** _Create & Explore SpringBoot Project_
+[">commits"](https://github.com/drvicx/Udemi_SpringBootREST/pull/3/commits)
 <pre>
 -- 441 - Spring Boot - What is Spring Boot;
 -- 442 - Spring Boot - Creating a Project with Spring Boot Initializr;
