@@ -15,7 +15,8 @@ by Chad Darby<br>
   Spring Boot Starter Data JPA <br>
   Spring Boot Starter Actuator <br>
   Spring Boot Starter Security (disabled) <br>
-  JDBC MySQL Connector 8.0.23 <br>
+  JDBC MySQL 8.0.23 Connector <br>
+  JDBC HSQLDB 2.5.2 Connector <br>
 
 - HTTP-methods implemented for REST-controllers: <br>
   GET, POST, PUT, DELETE <br>
@@ -44,7 +45,7 @@ by Chad Darby<br>
 -- 471 - Spring Boot - Testing the REST API with Spring Data JPA Repository;
 -- NEW - Implemented REST CRUD operations for HSQLDB Database as second DataSource;
 </pre>
-[>commits](https://localhost)
+[>commits](https://github.com/drvicx/Udemi_SpringBootREST/pull/8/commits)
 
 **20210528_1245:** _(C)reate, (U)pdate, (D)elete records from MySQL DB_
 <pre>
