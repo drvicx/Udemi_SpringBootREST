@@ -17,12 +17,17 @@ by Chad Darby<br>
   Spring Boot Starter Security (disabled) <br>
   JDBC MySQL Connector 8.0.23 <br>
 
-- app endpoints:<br>
+- HTTP-methods implemented for REST-controllers: <br>
+  GET, POST, PUT, DELETE <br>
+  
+- HTTP-REST-endpoints:<br>
   http://localhost:7070/api <br>
   http://localhost:7070/api/test <br>
   http://localhost:7070/api/employees <br>
   http://localhost:7070/api/employees/1 <br>
-
+  http://localhost:7070/api/users <br>
+  http://localhost:7070/api/users/1 <br>
+  
 - endpoints authorization (disabled):<br>
   username: admin<br>
   password: 1234@admin<br>
@@ -30,6 +35,16 @@ by Chad Darby<br>
 
 **=CHANGE LOG**<br>
 *new at the beginning
+
+**20210530_0120:** _Implement HSQLDB in-memory Database REST CRUD operations_
+<pre>
+-- REF: Changed implementation from native Hibernate API to Spring Data JPA API;
+-- 469 - Spring Boot - Spring Data JPA Overview;
+-- 470 - Spring Boot - Creating Spring Data JPA Repository;
+-- 471 - Spring Boot - Testing the REST API with Spring Data JPA Repository;
+-- NEW - Implemented REST CRUD operations for HSQLDB Database as second DataSource;
+</pre>
+[>commits](https://localhost)
 
 **20210528_1245:** _(C)reate, (U)pdate, (D)elete records from MySQL DB_
 <pre>
